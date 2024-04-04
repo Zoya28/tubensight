@@ -1,0 +1,84 @@
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/204/462/original/abstract-low-poly-background-with-connecting-dots-vector.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    /* height: 100vh; */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Serif Display', serif;
+}
+
+#main-container {
+    color: rgb(252, 249, 249);
+    background-color: rgba(0, 0, 0, 0.548);
+    padding: 20px;
+    border-radius: 70px;
+    width: 74%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    position: relative;
+}
+
+#main-container p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 27px;
+    padding: 3px 28px;
+}
+
+span {
+    background-image: url("../images/YouTube_logo.png");
+    background-size: cover;
+    border-radius: 28px;
+    padding: 7px 45px;
+    margin: 3px;
+    color: rgb(0 0 0);
+    width: 100%;
+}
+
+#video_id,
+#description-input {
+    margin-bottom: 10px;
+}
+
+.row .text-center {
+    text-align: center !important;
+    font-size: larger;
+    display: none;
+}
+
+.row h2,
+h3 {
+    font-size: larger;
+}
+
+.row1,
+.row2 {
+    margin-top: 3%;
+    /* Adjust margin as needed */
+}
+
+#results {
+    text-align: center;
+}
+
+#second-container h2 {
+    font-size: larger;
+}
+
+#result-button,
+#results {
+    margin-bottom: 10px;
+    background-color: rgb(205 0 0);
+    border: 2px solid rgb(182, 126, 21);
+}
+
+.card {
+    background-color: rgb(143, 143, 251);
+    /* padding: 20px; */
+}
